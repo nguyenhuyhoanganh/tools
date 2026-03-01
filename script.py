@@ -58,24 +58,24 @@ with sync_playwright() as p:
             page.mouse.click(255, 352)
             time.sleep(0.5)
 
-        if le < 20000:
+        if le < 10000:
             # print("Đặt LẺ")
             page.mouse.click(510, 357)
             time.sleep(0.5)
 
-        # if batrang < 10000:
-        #     # print("Đặt 3 TRẮNG")
-        #     page.mouse.click(430, 455)
-        #     time.sleep(0.5)
+        if batrang < 10000:
+            # print("Đặt 3 TRẮNG")
+            page.mouse.click(430, 455)
+            time.sleep(0.5)
 
-        # if bado < 10000:
-        #     # print("Đặt 3 ĐỎ")
-        #     page.mouse.click(535, 455)
-        #     time.sleep(0.5)
+        if bado < 10000:
+            # print("Đặt 3 ĐỎ")
+            page.mouse.click(535, 455)
+            time.sleep(0.5)
         
-        # if sapdoi < 10000:
-        #     # print("Đặt SẤP ĐÔI")
-        #     page.mouse.click(380, 370)
-        #     time.sleep(0.5)
+        if sapdoi < 10000:
+            # print("Đặt SẤP ĐÔI")
+            page.mouse.click(380, 370)
+            time.sleep(0.5)
 
         time.sleep(2)
